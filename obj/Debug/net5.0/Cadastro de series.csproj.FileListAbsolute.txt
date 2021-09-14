@@ -1,0 +1,16 @@
+C:\C# tutorial\Projeto\Cadastro de series\bin\Debug\net5.0\Cadastro de series.exe
+C:\C# tutorial\Projeto\Cadastro de series\bin\Debug\net5.0\Cadastro de series.deps.json
+C:\C# tutorial\Projeto\Cadastro de series\bin\Debug\net5.0\Cadastro de series.runtimeconfig.json
+C:\C# tutorial\Projeto\Cadastro de series\bin\Debug\net5.0\Cadastro de series.runtimeconfig.dev.json
+C:\C# tutorial\Projeto\Cadastro de series\bin\Debug\net5.0\Cadastro de series.dll
+C:\C# tutorial\Projeto\Cadastro de series\bin\Debug\net5.0\ref\Cadastro de series.dll
+C:\C# tutorial\Projeto\Cadastro de series\bin\Debug\net5.0\Cadastro de series.pdb
+C:\C# tutorial\Projeto\Cadastro de series\obj\Debug\net5.0\Cadastro de series.csproj.AssemblyReference.cache
+C:\C# tutorial\Projeto\Cadastro de series\obj\Debug\net5.0\Cadastro de series.GeneratedMSBuildEditorConfig.editorconfig
+C:\C# tutorial\Projeto\Cadastro de series\obj\Debug\net5.0\Cadastro de series.AssemblyInfoInputs.cache
+C:\C# tutorial\Projeto\Cadastro de series\obj\Debug\net5.0\Cadastro de series.AssemblyInfo.cs
+C:\C# tutorial\Projeto\Cadastro de series\obj\Debug\net5.0\Cadastro de series.csproj.CoreCompileInputs.cache
+C:\C# tutorial\Projeto\Cadastro de series\obj\Debug\net5.0\Cadastro de series.dll
+C:\C# tutorial\Projeto\Cadastro de series\obj\Debug\net5.0\ref\Cadastro de series.dll
+C:\C# tutorial\Projeto\Cadastro de series\obj\Debug\net5.0\Cadastro de series.pdb
+C:\C# tutorial\Projeto\Cadastro de series\obj\Debug\net5.0\Cadastro de series.genruntimeconfig.cache

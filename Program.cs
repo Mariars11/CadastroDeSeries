@@ -7,13 +7,21 @@ namespace Cadastro_de_series
         static void Main(string[] args)
         {
             Series[] serie = new Series[100];
-            var indiceSerie = 0; 
+            var indiceSerie = 0;
+            Console.WriteLine(); 
+            Console.WriteLine(" ===== SEJA BEM-VINDO(A) AO SERIESFLIX =====");
+            Console.WriteLine();
+            Console.WriteLine(" [Sinta-se livre para cadastrar novas séries, caso nosso sistema não as possua]");
+            Console.WriteLine();
             string opcao = ObterOpcao();
             while(opcao.ToUpper() != "X"){
                 switch(opcao)
                 {
                     case "1": 
                         var cadastroSerie = new Series();
+                        Console.WriteLine();
+                        Console.Write("==== CADASTRAMENTO DE SÉRIE ==== ");
+                        Console.WriteLine();
                         Console.Write("Informe o titulo da série: ");
                         cadastroSerie.titulo = Console.ReadLine();
 
@@ -33,6 +41,9 @@ namespace Cadastro_de_series
                         indiceSerie++;
                         break;
                     case "2": 
+                        Console.WriteLine();
+                        Console.WriteLine("=== LISTAGEM DAS SÉRIES CADASTRADAS ===");
+                        Console.WriteLine();
                         foreach (var a in serie)
                             if(!string.IsNullOrEmpty(a.titulo)){
                                 if(a.excluir == true){
@@ -46,6 +57,10 @@ namespace Cadastro_de_series
                             }
                         break;
                     case "3": 
+                        Console.WriteLine();
+                        Console.WriteLine(" === ALTERAR A INFORMAÇÃO DE UMA SÉRIE ===");
+                        Console.WriteLine("[Caso não queira alterar alguma das informações, por favor, digite a mesma informação anterior]");
+                        Console.WriteLine();
                         Console.Write("Você deseja alterar a informação de uma série(S/N)?");
                         char aux = Convert.ToChar(Console.ReadLine()); 
                         if(aux == 'S' || aux == 's'){
@@ -70,6 +85,8 @@ namespace Cadastro_de_series
 
                         break;
                     case "4": 
+                        Console.WriteLine();
+                        Console.WriteLine("=== EXCLUSÃO DE UMA SÉRIE ===");
                         Console.Write("Digite o numero da serie que deseja excluir (lembre-se que se inicia no 0): ");
                         int numDigitado = Convert.ToInt32(Console.ReadLine());
                         serie[numDigitado].excluir = true;
